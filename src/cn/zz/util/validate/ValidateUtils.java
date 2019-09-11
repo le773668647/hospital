@@ -1,0 +1,12 @@
+package cn.zz.util.validate;
+
+public class ValidateUtils {
+
+    public static boolean validateEmpty(String data){
+        if(data == null||"".equals(data)){
+            return false;
+        }
+
+        return true;//很关键！！
+    }
+}
