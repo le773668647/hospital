@@ -1,9 +1,9 @@
-package cn.ylcto.book.service.impl;
+package cn.zz.book.service.impl;
 
-import cn.ylcto.book.dbc.DatabaseConnection;
-import cn.ylcto.book.factory.DAOFactory;
-import cn.ylcto.book.service.IMemberService;
-import cn.ylcto.book.vo.Member;
+import cn.zz.book.dbc.DatabaseConnection;
+import cn.zz.book.factory.DAOFactory;
+import cn.zz.book.service.IMemberService;
+import cn.zz.book.vo.Member;
 
 public class MemberServiceImpl implements IMemberService{
     private DatabaseConnection dbc = new DatabaseConnection();

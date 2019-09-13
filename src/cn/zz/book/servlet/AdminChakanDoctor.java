@@ -1,7 +1,7 @@
-package cn.ylcto.book.servlet;
+package cn.zz.book.servlet;
 
-import cn.ylcto.book.DAO.impl.ChufangImpl;
-import cn.ylcto.book.dbc.DatabaseConnection;
+import cn.zz.book.DAO.impl.DoctorImpl;
+import cn.zz.book.dbc.DatabaseConnection;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,10 +13,12 @@ import java.sql.SQLException;
 
 /**
  * @author zzzz
- * @create 2019-07-10 上午1:38
+ * @create 2019-07-09 下午2:33
  */
-@WebServlet(name = "BeforePay",urlPatterns = "/BeforePay/*")
-public class BeforePay extends HttpServlet {
+@WebServlet(name ="AdminChakanDoctor",urlPatterns = "/AdminChakanDoctor/*")
+public class AdminChakanDoctor extends HttpServlet
+
+    {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -25,15 +27,15 @@ public class BeforePay extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         DatabaseConnection databaseConnection=new DatabaseConnection();
-        ChufangImpl chufang=new ChufangImpl(databaseConnection.getConn());
+        DoctorImpl doctor=new DoctorImpl(databaseConnection.getConn());
         try {
-            req.setAttribute("list",chufang.search());
+            req.setAttribute("list",doctor.search());
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
             databaseConnection.close();
         }
-        req.getRequestDispatcher("pay.jsp").forward(req,resp);
+        req.getRequestDispatcher("admindoctor.jsp").forward(req,resp);
     }
 
 }

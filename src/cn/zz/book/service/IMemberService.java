@@ -1,6 +1,6 @@
-package cn.ylcto.book.service;
+package cn.zz.book.service;
 
-import cn.ylcto.book.vo.Member;
+import cn.zz.book.vo.Member;
 
 public interface IMemberService {
     /**

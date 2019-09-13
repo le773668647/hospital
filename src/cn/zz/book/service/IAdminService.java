@@ -1,6 +1,6 @@
-package cn.ylcto.book.service;
+package cn.zz.book.service;
 
-import cn.ylcto.book.vo.Admin;
+import cn.zz.book.vo.Admin;
 
 
 public interface IAdminService {

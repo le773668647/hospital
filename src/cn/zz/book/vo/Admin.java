@@ -1,6 +1,4 @@
-package cn.ylcto.book.vo;
-
-import javafx.scene.chart.PieChart;
+package cn.zz.book.vo;
 
 import java.io.Serializable;
 import java.util.Date;

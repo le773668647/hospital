@@ -1,9 +1,9 @@
-package cn.ylcto.book.service.impl;
+package cn.zz.book.service.impl;
 
-import cn.ylcto.book.vo.Admin;
-import cn.ylcto.book.dbc.DatabaseConnection;
-import cn.ylcto.book.factory.DAOFactory;
-import cn.ylcto.book.service.IAdminService;
+import cn.zz.book.vo.Admin;
+import cn.zz.book.dbc.DatabaseConnection;
+import cn.zz.book.factory.DAOFactory;
+import cn.zz.book.service.IAdminService;
 
 public class AdminServiceImpl implements IAdminService{
     private DatabaseConnection dbc = new DatabaseConnection();

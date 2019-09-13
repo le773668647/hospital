@@ -1,10 +1,8 @@
-package cn.ylcto.book.servlet;
+package cn.zz.book.servlet;
 
-import cn.ylcto.book.vo.Admin;
-import cn.ylcto.book.factory.ServiceFactory;
-import cn.ylcto.util.MD5Code;
-import cn.ylcto.util.validate.ValidateUtils;
-import sun.rmi.runtime.Log;
+import cn.zz.book.vo.Admin;
+import cn.zz.book.factory.ServiceFactory;
+import cn.zz.util.validate.ValidateUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
