@@ -1,4 +1,4 @@
-package cn.ylcto.book.vo;
+package cn.zz.book.vo;
 
 import java.io.Serializable;
 import java.util.Date;

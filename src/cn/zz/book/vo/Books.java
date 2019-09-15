@@ -1,6 +1,5 @@
-package cn.ylcto.book.vo;
+package cn.zz.book.vo;
 
-import java.awt.print.Book;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
@@ -15,11 +14,11 @@ public class Books implements Serializable{
     private Admin admin;//表示图书由谁增加，aid
     private List<Lenbook> Lenbook;//表示可以借多本书
 
-    public List<cn.ylcto.book.vo.Lenbook> getLenbook() {
+    public List<cn.zz.book.vo.Lenbook> getLenbook() {
         return Lenbook;
     }
 
-    public void setLenbook(List<cn.ylcto.book.vo.Lenbook> lenbook) {
+    public void setLenbook(List<cn.zz.book.vo.Lenbook> lenbook) {
         Lenbook = lenbook;
     }
 

@@ -1,7 +1,7 @@
-package cn.ylcto.book.servlet;
+package cn.zz.book.servlet;
 
-import cn.ylcto.book.DAO.impl.HuanzheImpl;
-import cn.ylcto.book.dbc.DatabaseConnection;
+import cn.zz.book.DAO.impl.ChufangImpl;
+import cn.zz.book.dbc.DatabaseConnection;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,10 +13,10 @@ import java.sql.SQLException;
 
 /**
  * @author zzzz
- * @create 2019-07-10 上午12:12
+ * @create 2019-07-10 上午12:42
  */
-@WebServlet(name = "NurseChakanyuyue",urlPatterns = "/NurseChakanyuyue/*")
-public class NurseChakanyuyue extends HttpServlet {
+@WebServlet(name ="YaofangZhenshi" ,urlPatterns = "/YaofangZhenshi/*")
+public class YaofangZhenshi extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -25,15 +25,15 @@ public class NurseChakanyuyue extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         DatabaseConnection databaseConnection=new DatabaseConnection();
-        HuanzheImpl huanzhe1=new HuanzheImpl(databaseConnection.getConn());
+        ChufangImpl chufang=new ChufangImpl(databaseConnection.getConn());
         try {
-            req.setAttribute("list",huanzhe1.search());
+            req.setAttribute("list",chufang.search());
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
             databaseConnection.close();
         }
-        req.getRequestDispatcher("rightnow.jsp").forward(req,resp);
+        req.getRequestDispatcher("yaofangzhenshi.jsp").forward(req,resp);
     }
 
 }

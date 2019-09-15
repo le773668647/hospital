@@ -1,10 +1,8 @@
-package cn.ylcto.book.servlet;
+package cn.zz.book.servlet;
 
-import cn.ylcto.book.DAO.impl.DoctorImpl;
-import cn.ylcto.book.DAO.impl.NurseImpl;
-import cn.ylcto.book.dbc.DatabaseConnection;
-import cn.ylcto.book.vo.Doctor;
-import cn.ylcto.book.vo.Nurse;
+import cn.zz.book.DAO.impl.NurseImpl;
+import cn.zz.book.dbc.DatabaseConnection;
+import cn.zz.book.vo.Nurse;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

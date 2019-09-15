@@ -1,8 +1,8 @@
-package cn.ylcto.book.servlet;
+package cn.zz.book.servlet;
 
-import cn.ylcto.book.DAO.impl.PatientRegisterImpl;
-import cn.ylcto.book.dbc.DatabaseConnection;
-import cn.ylcto.book.vo.Patient;
+import cn.zz.book.DAO.impl.PatientRegisterImpl;
+import cn.zz.book.dbc.DatabaseConnection;
+import cn.zz.book.vo.Patient;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
