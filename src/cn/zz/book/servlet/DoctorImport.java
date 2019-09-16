@@ -1,9 +1,9 @@
-package cn.ylcto.book.servlet;
+package cn.zz.book.servlet;
 
-import cn.ylcto.book.DAO.impl.DoctorImpl;
-import cn.ylcto.book.dbc.DatabaseConnection;
-import cn.ylcto.book.vo.Doctor;
-import cn.ylcto.read.Read;
+import cn.zz.book.DAO.impl.DoctorImpl;
+import cn.zz.book.dbc.DatabaseConnection;
+import cn.zz.book.vo.Doctor;
+import cn.zz.read.Read;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +13,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

@@ -1,10 +1,10 @@
-package cn.ylcto.book.servlet;
+package cn.zz.book.servlet;
 
-import cn.ylcto.book.factory.ServiceFactory;
-import cn.ylcto.book.vo.Admin;
-import cn.ylcto.book.vo.Books;
-import cn.ylcto.book.vo.Item;
-import cn.ylcto.util.validate.ValidateUtils;
+import cn.zz.book.factory.ServiceFactory;
+import cn.zz.book.vo.Admin;
+import cn.zz.book.vo.Books;
+import cn.zz.book.vo.Item;
+import cn.zz.util.validate.ValidateUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.Map;
 
 @WebServlet(name = "booksServlet",urlPatterns = "/pages/back/books/BooksServlet/*")
