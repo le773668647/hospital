@@ -1,0 +1,1321 @@
+* {
+    font-family: '微软雅黑';
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+/**********************************分页样式*********************************/
+
+.paginator { font: 11px Arial, Helvetica, sans-serif;padding:10px 20px 10px 0; margin: 0px;}
+.currentPageStyle{line-height: 36px;height: 36px; font-size: 12px;}
+.paginator a {padding: 1px 6px; border: solid 1px #ddd; background: #fff; text-decoration: none;margin-right:2px}
+.paginator a:visited {padding: 1px 6px; border: solid 1px #ddd; background: #fff; text-decoration: none;}
+.paginator .cpb {padding: 1px 6px;font-weight: bold; font-size: 13px;border:none}
+.paginator a:hover {color: #fff; background: #ffa501;border-color:#ffa501;text-decoration: none;}
+
+
+/**************************************************MainFrame.Master**********************************************/
+
+.MainFram {
+    width: 1000px;
+    margin: 0px auto;
+ 
+}
+.Top {
+    height: 340px;
+}
+.Top_ImgDiv 
+{
+    height: 300px;
+    width: 1000px;
+}
+.Navigation {
+    height: 40px;
+    width: 1000px;
+    background-color: #034da2;
+}
+
+.Navigation span {
+    display: block;
+    float: left;
+    margin: 0px;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.Navigation span a 
+{
+    display: block;
+    height: 40px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Navigation span a:hover {
+    background-color: #003b5f;
+}
+
+.ClickMenuStyle 
+{
+     display: block;
+    height: 40px;
+    width: 100px;
+    color: white;
+     background-color: #003b5f;
+    
+}
+
+.MiddleStyle 
+{
+    width: 1000px;
+    min-height: 150px;
+    
+}
+.FooterStyle 
+{
+    height: 149px;
+    width: 1000px;
+    background-color: #034da2;
+}
+.FooterStyle div 
+{
+    display: inline-block;
+    float: left;
+    height: 149px;
+    text-align: center;
+}
+
+.FooterStyle #f_l 
+{
+    width: 779px;/*764px;*/
+    height: 87px;
+    color: white;
+    font-size: 13px;
+    padding: 31px 28px; /*31px 36px;*/
+}
+
+.FooterStyle #f_l .WebSign 
+{
+    display: block;
+    height: 88px;
+    width: 56px;
+    margin-right: 23px;
+    
+}
+
+.FooterStyle #f_l .footer_info {
+  
+    width: 700px;
+    height: 88px;
+}
+
+.FooterStyle #f_l .line {
+    clear: both;
+    width: 700px;
+    height: 18px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+ .line a {
+     color: white;
+     text-decoration: none;
+ }
+
+
+.FooterStyle #f_l .footer_info .line span {
+    display: inline-block;
+ 
+}
+.FooterStyle #f_l .footer_info .line .space 
+{
+    width: 26px;
+}
+
+.FooterStyle #f_r 
+{
+    width: 164px;  
+}
+
+.FooterStyle #f_r .MarkLink {
+    margin: 8px 26px;
+}
+
+.FooterStyle #f_r .MarkImg 
+{
+    height: 112px;
+    width: 112px;
+    margin-bottom: 6px;
+}
+.FooterStyle #f_r .MarkMemo {
+    font-size: 13px;
+    color: white;
+    width: 112px;
+    height: 20px;
+    text-align: center;
+}
+
+/******************************************Index.aspx********************************************************/
+
+/*****DIV1******/
+.Index_M_Up 
+{
+    display: block;
+    width: 1000px;
+    height: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.M_Up_Left 
+{
+    display: inline-block;
+    float: left;
+    width: 400px;
+    height: 270px;
+    margin-right: 10px;
+}
+
+.Up_Left_Top 
+{
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.Up_Left_Bottom 
+{
+    display: block;
+    height: 60px;
+    width: 400px;
+}
+
+
+.M_Up_Right 
+{
+    display: inline-block;
+    float: right;
+    width: 590px;
+    height: 270px;
+}
+
+.Up_Right_Top {
+    width: 288px;
+    height: 139px;
+    border: 1px solid #939393;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.Right_Top_Right {
+     width: 288px;
+    height: 141px;
+    float: left;
+    margin-left: 298px;
+    margin-top: -151px;
+}
+.Up_Right_Bottom {
+    width: 588px;
+    height: 117px;
+    /*border: 1px solid #939393;*/
+}
+.Right_Bottom_Left {
+    border: 1px solid #939393;
+    width: 288px;
+    height: 117px;
+    float: left;
+    margin-right: 10px;
+}
+.Right_Bottom_Right {
+     width: 288px;
+    height: 119px;
+    float: left;
+}
+
+.Right_Bottom_Right img {
+    border: 0px;
+}
+/*****DIV2******/
+
+.Index_DIV2 
+{
+    display: block;
+    width: 1000px;
+    height: 90px;
+    background-color: #d9d9d9;
+    background-image: url('/img/首页V5.0.0_03.png');
+    margin-bottom: 11px;
+    
+}
+
+.Index_DIV2 div {
+    float: left;
+    margin-right: 11px;
+}
+
+.DIV2_Title {
+    width: 62px;
+    height: 65px;
+    font-size: 30px;
+    line-height: 32px;
+    color: #0284c7;
+    padding: 12px 15px 12px 16px;
+    font-weight:500;
+}
+.DIV2_Items {
+    padding: 12px 0px;
+    
+}
+.DIV2_Item {
+    height: 65px;
+    width: 62px;
+}
+.DIV2_Item_img {
+    height: 51px;
+    width: 62px;
+}
+.DIV2_Item_img a img {
+    height: 51px;
+    width: 62px;
+}
+
+.DIV2_Item_Title 
+{
+    width: 62px;
+    font-size: 14px;
+    color:  #0284c7;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+/******DIV3******/
+.index_DIV3 {
+    display: block;
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.DIV3_Left 
+{
+    width: 658px;
+    margin-right: 10px;
+     float: left;
+    height: 300px;
+    border: 1px solid #939393;
+}
+.DIV3_Right 
+{
+    width: 328px;
+     float: left;
+    height: 300px;
+    border: 1px solid #939393;
+}
+/*****DIV4*******/
+.index_DIV4 {
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.DIV4_Left 
+{
+      float: left;
+    height: 300px;
+   border: 1px solid #939393;
+    width: 658px;
+    margin-right: 10px;
+}
+.DIV4_Right 
+{
+      float: left;
+    height: 300px;
+   border: 1px solid #939393;
+    width: 328px;
+}
+/****DIV5*****/
+.index_DIV5 {
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.index_DIV5 div {
+   
+}
+.DIV5_Left {
+     width: 660px;
+    margin-right: 10px;
+      height: 300px;
+    float: left;
+}
+.DIV5_Left div {
+   
+}
+.DIV5_Left_L {
+    width: 437px;
+    margin-right:9px;
+      height:298px;
+    float: left;
+     border: 1px solid #939393;
+}
+.DIV5_Left_R {
+    width: 210px;
+      height:298px;
+    float: left;
+     border: 1px solid #939393;
+}
+
+.DIV5_Right {
+    width: 330px;
+     /*border: 1px solid #939393;*/
+       height: 300px;
+    float: left;
+}
+.DIV5_Right div 
+{
+   
+}
+
+.DIV5_Right_Top {
+    margin-bottom: 10px;
+     width: 330px;
+    height: 143px;
+    border: 1px solid #939393;
+}
+/**************DIV6******************/
+.index_DIV6 {
+    width: 1000px;
+    height: 300px;
+    /*margin-bottom: 10px;*/
+}
+
+.DIV6_Left {
+     width: 660px;
+    margin-right: 10px;
+     height: 300px;
+    float: left;
+}
+
+.DIV6_Left_L {
+    width: 437px;
+    margin-right:9px;
+     height: 298px;
+    float: left;
+     border: 1px solid #939393;
+}
+.DIV6_Left_R {
+    width: 210px;
+     height: 298px;
+    float: left;
+     border: 1px solid #939393;
+}
+
+.DIV6_Right {
+    width: 330px;
+     height: 300px;
+    float: left;
+     /*border: 1px solid #939393;*/
+}
+
+
+.DIV6_Right_Top {
+    margin-bottom: 10px;
+     height: 300px;
+    float: left;
+     width: 330px;
+    height: 168px;
+    border: 1px solid #939393;
+}
+
+.DIV6_Right_Bottom
+{
+     height: 300px;
+    float: left;
+     width: 330px;
+    height: 118px;
+    border: 1px solid #939393;
+    }
+/**********Link*******************/
+.index_Link 
+{
+    width: 1000px;
+    overflow: hidden;
+    padding: 0 0px;
+    height: 76px;
+    /*margin: 0px 0px 10px 0px;*/
+    overflow: hidden;
+
+}
+.index_Link marquee {
+    width: 1000px;
+}
+
+.index_Link li {
+    /*height: 76px;*/
+    width: 155px;
+    float: left;
+    margin-right: 14px;
+    list-style-type:none; 
+}
+
+.index_Link ul li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 155px;
+    /*height: 76px;*/
+    border: 0px;
+    text-decoration: none;
+}
+
+.index_Link ul li a img {
+    
+    width: 155px;
+    height: 60px;
+    border: 0px;
+}
+.index_Link .Last {
+    margin-right: 0px;
+}
+
+
+.LinkStyle_I
+{
+    display:block;
+   width: 1000px;    
+    height: 62px; 
+    overflow:hidden;
+}
+
+.LinkStyle_I ul
+{
+    display:block;
+    padding:0px;
+    margin:0px;
+}
+
+.LinkStyle_I li
+{
+    width: 155px;
+    float: left;
+    margin-right: 14px;
+    height: 62px; 
+    list-style-type:none;
+}
+
+.LinkStyle_I li a img
+{
+    width: 153px;
+    height: 58px;
+    border: 0px;
+    border:1px solid #d0d0d0;
+}
+
+/**********************index.aspx的内容****************************************/
+
+/*模块标题*/
+.Moudle_Title {
+    height: 18px;
+    line-height: 38px;
+    padding: 8px 10px 12px 7px;
+}
+.Moudle_Title div {
+    
+    color: #0183c7;
+    /*font-weight: 600;*/
+}
+.Moudle_Title_T 
+{
+    float: left;
+    font-size: 18px;
+    letter-spacing: 5px;
+    height: 18px;
+    line-height: 18px;   
+}
+.Moudle_Title_More {
+    font-size: 14px;
+    float: right;
+    height: 18px;
+    line-height: 18px;  
+}
+.Moudle_Title_More a {
+    
+    color: #0183c7;
+    text-decoration: none;
+}
+.Speter {
+    height: 3px;
+}
+
+/******************/
+
+/*医院概况*/
+.Introduction 
+{
+    display: block;
+    font-size: 12px;
+    font-family: '宋体';
+    line-height: 22px;
+    padding: 5px 10px;
+    color: #2e2e2e;
+    text-indent: 2em;
+    height: 88px;
+    overflow: hidden;
+}
+
+/*医院快讯*/
+.Quck {
+    font-size: 12px;
+    padding: 2px 10px 0px 10px;
+    
+}
+.QuckItem 
+{
+    height: 22px;
+    line-height: 22px;
+    font-family: '宋体';
+    
+}
+.QuckSign {
+    color: red;
+    padding-right: 5px;
+   
+}
+.QuckTitle a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-family: '宋体';
+}
+/*医疗保障*/
+.Ensure {
+    width: 318px;
+    margin: 0px auto;
+    
+}
+
+.Ensure_Item a {
+    text-decoration: none;
+    border: none;
+    
+}
+.Ensure_Item a img {
+    width: 318px;
+    height: 120px;
+    margin-top: 5px;
+    border: 0px;
+}
+/*患者服务*/
+.Service
+{
+    display:block;
+    width:250px;
+    margin:10px auto;
+    
+}
+
+.Service_Item
+{
+    width:86px;
+    float:left;
+    margin-right:78px;
+    margin-bottom:18px;
+
+    
+}
+
+.Service_Item a
+{
+    display:block;
+    width:76px;
+    height:76px;
+    margin:0px auto;
+    text-decoration:none;
+    border:0px;
+}
+
+.Service_Item a img
+{
+    width:76px;
+    height:76px;
+    border: 0px;
+}
+
+.Service_Item_Title
+{
+    display:block;
+    font-size:17px;
+    color:#0183c7;
+    text-align:center;
+    padding-top:5px;
+}
+
+
+
+.Service_Item1
+{
+    width:86px;
+    float:left;
+    margin-right:0px;
+    margin-bottom:18px;
+
+    
+}
+
+.Service_Item1 a
+{
+    display:block;
+    width:76px;
+    height:76px;
+    margin:0px auto;
+    text-decoration:none;
+    border:0px;
+}
+
+.Service_Item1 a img
+{
+    width:76px;
+    height:76px;
+    border: 0px;
+}
+
+
+
+
+/*特色治疗*/
+.TreatmentItems
+{
+    margin-top:7px;
+   
+}
+
+.Treatment
+{
+    padding-left:6px;
+    font-size:13px;
+    color:#0a88c5;
+    letter-spacing:2px;
+    height:27px;
+    line-height:27px;
+      
+}
+.Treatment a
+{
+    text-decoration:none;
+    color:#0a88c5;
+
+ }
+
+/*健康科普*/
+.HealthItems
+{
+    margin-top:10px;
+   
+}
+
+.Health
+{
+     padding-left:6px;
+    font-size:13px;
+    
+    letter-spacing:2px;
+    height:21px;
+    line-height:21px;
+    color:#2e2e2e;
+}
+
+.Health a
+{
+    text-decoration:none;
+    color:#2e2e2e;
+     font-family:'宋体';
+ }
+/*员工通道*/
+.Members
+{
+    width:270px;
+    margin:17px auto 11px auto;    
+}
+
+.Members_Items
+{
+    width:118px;
+    height:100px;
+    float:left;
+    margin-right:34px;
+}
+.Members_Items_img
+{
+    width:118px;
+    height:61px;
+    text-align:center;
+    
+}
+.Members_Items_img a
+{
+    border: 0px;
+    display:block;
+    margin:0px auto;
+    text-decoration:none;
+}
+.Members_Items_img a img {
+    border: 0px;
+}
+
+.Members_Items_Title
+{
+    font-size:18px;
+    padding-top:12px;
+    color:#007ab5;
+}
+/*研究机构*/
+.Organization 
+{
+    display: block;
+    width: 192px;
+    margin: 10px auto;
+    
+}
+.Organization_Sign {
+    width: 192px;
+    height: 94px;
+    margin-bottom: 7px;
+}
+.Organization_List {
+    margin-top: 5px;
+}
+.Organization_ListItem {
+    font-size: 12px;
+    font-family: '宋体';
+    color:#0a88c5;
+    height: 25px;
+    line-height: 25px;
+}
+.Organization_ListItem a {
+      color:#0a88c5;
+    text-decoration: none;
+}
+/*科研教学*/
+.Teach 
+{
+    display: block;
+    width: 437px;
+    height: 259px;
+    margin: 0px auto;
+}
+.Teach_Item {
+    width: 218px;
+    float: left;
+}
+.Teach_Item_Title {
+    height: 21px;
+    padding-top: 16px;
+    font-size: 14px;
+    text-align: center;
+    color: #0a88c5;
+    font-family: '宋体';
+    font-weight: bold;
+    width: 218px;
+}
+.Teach_Item_List {
+    width: 185px;
+    height: 210px;
+    border-right: 1px dashed #adadad;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 13px;
+}
+
+.Teach_Item_List_Item 
+{
+    height: 21px;
+    font-family: '宋体';
+    font-size: 12px;
+    line-height: 21px;
+    color: #2e2e2e;
+    margin-bottom: 1px;
+        color: #2e2e2e
+}
+
+.Teach_Item_List_Item a 
+{
+    
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+    font-family: '宋体';
+    text-decoration: none;
+    color: #2e2e2e
+     
+}
+
+/*党群工作*/
+.Party 
+{
+    display: block;
+    width: 437px;
+    height: 259px;
+    margin: 0px auto;
+}
+.Party_Item {
+    width: 218px;
+    float: left;
+}
+.Party_Item_Title {
+    height: 21px;
+    padding-top: 16px;
+    font-size: 14px;
+    text-align: center;
+    color: #0a88c5;
+    font-family: '宋体';
+    font-weight: bold;
+    width: 218px;
+}
+.Party_Item_List {
+    width: 185px;
+    height: 210px;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 13px;
+    overflow: hidden;
+    
+}
+
+.Party_Item_List_Item 
+{
+    height: 21px;
+    font-family: '宋体';
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 1px;
+    padding: 0px;
+}
+
+.Party_Item_List_Item a
+{
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-family: '宋体';
+    white-space: nowrap;
+}
+
+/*专家介绍*/
+.ProNav 
+{
+    height: 40px;
+    line-height: 40px;
+    background-color: #0083c7;
+    padding-left: 10px;
+    font-size: 16px;
+    color: white;
+    font-family: '宋体';
+    font-weight: bold;
+}
+.ProNav_Item {
+    display: inline-block;
+    padding-right: 6px;
+    margin-right: 15px;
+    float: left;
+}
+.ProNav_Item span 
+{
+    display: inline-block;
+    margin-right: 15px;
+  /*  margin-top: -8px;*/
+    
+}
+.ProNav_Item span .textBox {
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+    color: #818181;
+    border: 1px solid #aeaeae;
+    width: 180px;
+    padding-left: 4px   
+}
+
+.ProNav_Item span .btn 
+{
+    width: 45px;
+    height: 20px;
+    border: 1px solid #1776a2;
+    background-color: #e0dfe5;
+    font-size: 12px;
+    color: #686868;
+    
+}
+.ProList 
+{
+    display: block;
+    width: 656px;
+    height: 219px;
+    margin:0px auto;
+    text-align:center;
+}
+
+
+.ProList1
+{
+    display: block;
+    width: 620px;
+    height: 219px;
+    margin:0px auto;
+    text-align:center;
+}
+
+
+/**********专家介绍1**********/
+
+.ProList .Pro_Item1
+{
+    width:155px;
+    height:184px;    
+    margin-top:8px;
+    float:left;
+    margin-left:4px;
+    margin-right:5px;
+}
+
+.Pro_Item1 .Item_Up
+{
+    width:155px;
+    height:169px;
+    line-height:22px;
+    font-size:13px;
+    color:#2e2e2e;
+    font-family:'宋体';
+    padding:2px;
+    overflow:hidden;
+}
+.Up_L
+{
+    display:block;
+    width:94px;
+    height:126px;
+    float:left;
+    /*padding-bottom:5px;
+    padding-right:5px;*/
+    
+}
+.Up_L img
+{
+    width:94px;
+    height:126px;
+}
+
+.Up_R
+{
+    display:block;
+    height:157px;
+}
+
+.Pro_Item1 .Item_Down
+{
+    width:155px;
+    height:27px;
+    text-align:center;
+    padding:2px 0px;
+}
+
+
+
+/**********专家介绍2**********/
+
+.ProList .Pro_Item 
+{
+    display: inline-block;
+    width: 198px;
+    margin: 0px 5px;
+    height: 184px;
+    float: left;
+    padding: 17px 9px 17px 2px;
+}
+.Pro_Item_L {
+    width: 105px;
+    float: left;
+    height: 184px;
+}
+
+.Pro_Item_R 
+{
+    display: inline-block;
+    width:60px;
+    float: right;
+    height: 184px;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: '宋体';
+    text-align: left;
+    
+} 
+.Pro_img 
+{
+    display: block;
+    width: 105px;
+    height: 141px;
+    margin-bottom: 17px;
+    
+}
+.Pro_img img {
+    width: 105px;
+    height: 141px;
+}
+
+.Pro_btn 
+{
+    margin: 0px auto;
+    width: 100px;
+    height: 27px;
+    
+}
+
+
+/**********专家介绍**********/
+
+
+/*期刊中心*/
+.Central {
+    width: 210px;
+    height: 210px;
+    margin: 10px auto;
+}
+.Central a {
+    text-decoration: none;
+    border: 0px;
+}
+.Central_Title {
+    text-align: center;
+    font-size: 14px;
+    color: #0083c7;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.Central_Title a {
+    text-decoration: none;
+    color: #0083c7;
+}
+
+/*下载中心*/
+.DownLoadCenter 
+{
+    display: block;
+    width: 260px;
+    height: 48px;
+    margin: 10px auto;
+   
+}
+.DownLine {
+    height: 24px;
+    line-height: 24px;
+    width: 260px;
+    font-size: 12px;
+}
+.DownItem 
+{
+    display: block;
+    float: left;
+    width: 65px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+.DownItem a {
+    text-decoration: none;
+    color: #2f2f2f;
+     font-family: '宋体';
+}
+/*科室导航*/
+.OfficeNavi 
+{
+    display: block;
+    width: 658px;
+    height: 257px;
+    
+}
+.OfficeList 
+{
+    display: block;
+    width: 640px;
+    border-collapse: collapse;
+    margin: 5px 8px;
+    font-family: '宋体';
+    
+}
+.OfficeList .OfficeTitle {
+    font-size: 14px;
+    color: #118bca;
+    font-weight: 600;
+        height: 22px;
+    line-height: 22px;
+    font-family: '宋体';
+}
+.OfficeList .TitleMemo {
+    font-size: 12px;
+    color: #118bca;
+      font-weight: 600;
+    height: 20px;
+    line-height: 20px;
+    font-family: '宋体';
+}
+.OfficeList .OfficeItem {
+    font-size: 12px;
+    color: #2e2e2e;
+    border: 0px;
+    width: 128px;
+    line-height: 20px;
+    height: 20px;
+    font-family: '宋体';
+     white-space: nowrap;
+}
+
+.OtherOfficeItem {
+     font-size: 12px;
+    color: #2e2e2e;
+    border: 0px;
+   
+    line-height: 20px;
+    height: 20px;
+    font-family: '宋体';
+}
+/*******************************************Content.aspx**************************************************/
+
+.MainContent 
+{
+    display: block;
+    width: 996px;
+    min-height: 596px;
+    border: 2px solid #d4eefd;
+    margin: 10px 0px;
+    background-color: #74c7fd;
+}
+ .LeftMenu 
+{
+     display: inline-block;
+    width: 248px;
+    float: left;
+     background-color: transparent;
+    min-height: 596px;
+    
+}
+
+
+.RightContent 
+{
+    display: inline-block;
+    width: 748px;
+    float: right;
+    min-height: 596px;
+     background-color: white;
+}
+
+.MenuItem {
+    width: 218px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 17px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    font-weight:300;
+  
+}
+.MenuItem:hover 
+{
+    background-color: #034da2;
+}
+
+.ClickSecondMenuStyle {
+    width: 218px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 17px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    font-weight:300;
+    background-color: #034da2;
+}
+
+.MenuItem .Sign {
+    float: left;
+    padding-top: 13px;
+}
+
+.MenuItem .Title {
+    float: left;
+    padding-left: 10px;
+    width: 156px;
+    overflow: hidden;
+}
+.Title a 
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 156px;
+    overflow: hidden;
+    height: 50px;
+}
+
+/*************************************************ElectronicPaperList.aspx*******************************************************/
+
+.NewspaperList
+{
+  display:inline-block;
+  width:688px;
+  min-height:235px;
+  padding:30px 30px 10px 30px;
+      
+    }
+    
+.NewsNumber
+{
+   display: inline-block;
+   width:152px;
+   height:184px;
+   margin:30px 8px;   
+    }
+    
+   .NewsNumber .ImgStyles  img
+   {
+       border: 0px;
+       height: 155px;
+       width: 152px;
+       
+       
+   }
+
+.NewsName
+{
+  font-family: '宋体';
+  font-size:13px;
+  line-height:29px;
+  text-align:center;
+  color:#000000;
+  font-weight:500;
+
+ }
+ 
+ .NewspaperList a
+ {
+   text-decoration:none;
+}
+
+.ButtonOperStyle {
+    height: 30px;
+    width: 71px;
+    border: 0px;
+    background-image: url('../img/009_graybutton_1.png');
+    color: white;
+    
+}
